@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "姓名"; ObjectID = "5Xh-Fu-B6G"; */
+"5Xh-Fu-B6G.text" = "姓名";
+
+/* Class = "UITextField"; placeholder = "请输入用户名"; ObjectID = "6pN-2h-k0Z"; */
+"6pN-2h-k0Z.placeholder" = "请输入用户名";
+
+/* Class = "UITabBarItem"; title = "消息"; ObjectID = "8gp-nS-oD5"; */
+"8gp-nS-oD5.title" = "消息";
+
+/* Class = "UITabBarItem"; title = "工作预览"; ObjectID = "CC5-xu-gmI"; */
+"CC5-xu-gmI.title" = "工作预览";
+
+/* Class = "UIButton"; normalTitle = "产品号"; ObjectID = "J26-uF-KcG"; */
+"J26-uF-KcG.normalTitle" = "产品号";
+
+/* Class = "UIButton"; normalTitle = "用户号码"; ObjectID = "JBB-Sm-FfP"; */
+"JBB-Sm-FfP.normalTitle" = "用户号码";
+
+/* Class = "UIButton"; normalTitle = "搜索"; ObjectID = "QR4-nd-aBZ"; */
+"QR4-nd-aBZ.normalTitle" = "搜索";
+
+/* Class = "UITabBarItem"; title = "设置"; ObjectID = "Yjh-GC-Eq7"; */
+"Yjh-GC-Eq7.title" = "设置";
+
+/* Class = "UITextField"; placeholder = "请输入密码"; ObjectID = "cZV-9f-2LI"; */
+"cZV-9f-2LI.placeholder" = "请输入密码";
+
+/* Class = "UINavigationItem"; title = "工作预览"; ObjectID = "gNR-8u-Tay"; */
+"gNR-8u-Tay.title" = "工作预览";
+
+/* Class = "UINavigationItem"; title = "设置"; ObjectID = "lBU-AY-Xea"; */
+"lBU-AY-Xea.title" = "设置";
+
+/* Class = "UINavigationItem"; title = "消息"; ObjectID = "qh1-fv-RMD"; */
+"qh1-fv-RMD.title" = "消息";
+
+/* Class = "UIButton"; normalTitle = "登录"; ObjectID = "sBp-yN-d7S"; */
+"sBp-yN-d7S.normalTitle" = "登录";
+
+/* Class = "UILabel"; text = "产品介绍"; ObjectID = "xEr-6V-NSu"; */
+"xEr-6V-NSu.text" = "产品介绍";

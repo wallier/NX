@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="PhotoCell">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="San-NR-zPh">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                        <animations/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aGO-Hu-Vnr">
+                        <rect key="frame" x="76" y="0.0" width="24" height="24"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="b83-9S-q5c"/>
+                            <constraint firstAttribute="height" constant="24" id="jwB-kr-ewD"/>
+                        </constraints>
+                        <state key="normal" image="btn_delete"/>
+                        <connections>
+                            <action selector="deleteBuutonTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="LBZ-q5-5TE"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <animations/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <animations/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="aGO-Hu-Vnr" secondAttribute="trailing" id="QcR-hc-qXm"/>
+                <constraint firstItem="aGO-Hu-Vnr" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="TBR-Rb-mNS"/>
+                <constraint firstAttribute="trailing" secondItem="San-NR-zPh" secondAttribute="trailing" id="WCo-KM-aOu"/>
+                <constraint firstItem="San-NR-zPh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="XJF-T6-b0g"/>
+                <constraint firstAttribute="bottom" secondItem="San-NR-zPh" secondAttribute="bottom" id="XvM-Lo-q7f"/>
+                <constraint firstItem="San-NR-zPh" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="fce-sO-hdV"/>
+            </constraints>
+            <connections>
+                <outlet property="photoView" destination="San-NR-zPh" id="c34-ye-z5a"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="btn_delete" width="60" height="60"/>
+    </resources>
+</document>

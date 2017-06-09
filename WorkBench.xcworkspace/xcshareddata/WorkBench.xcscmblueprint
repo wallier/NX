@@ -1,0 +1,45 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7f97a2bc-2b2f-45d5-8144-b37b79a142ed++7087",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "3770f762-867d-4b15-88fd-e45776d612cc++1149" : {
+
+    },
+    "7f97a2bc-2b2f-45d5-8144-b37b79a142ed++7087" : {
+
+    },
+    "3770f762-867d-4b15-88fd-e45776d612cc++6084" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3770f762-867d-4b15-88fd-e45776d612cc++1149" : 0,
+    "7f97a2bc-2b2f-45d5-8144-b37b79a142ed++7087" : 9223372036854775807,
+    "3770f762-867d-4b15-88fd-e45776d612cc++6084" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FCB18053-C6D1-4E8B-8DC8-ABA22481B402",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3770f762-867d-4b15-88fd-e45776d612cc++1149" : "PhoneGrid\/",
+    "7f97a2bc-2b2f-45d5-8144-b37b79a142ed++7087" : "WorkBench\/",
+    "3770f762-867d-4b15-88fd-e45776d612cc++6084" : "WorkBench_Refactoring\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WorkBench",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WorkBench.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/svn.bonc.com.cn\/bftel\/jszx",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3770f762-867d-4b15-88fd-e45776d612cc++1149"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/svn.bonc.com.cn\/bftel\/jszx",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3770f762-867d-4b15-88fd-e45776d612cc++6084"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.1.100:9999\/project\/repo1",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7f97a2bc-2b2f-45d5-8144-b37b79a142ed++7087"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="buildingCell" id="gTV-IL-0wX" customClass="BNBuildingCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="85" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="85" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loudong" translatesAutoresizingMaskIntoConstraints="NO" id="qKu-b7-qSZ">
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="使用率30%" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ix2-bh-mIE">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="41" id="mbm-Ux-oPP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.30190683270000002" green="0.32086414619999998" blue="0.32777732329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x号楼" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Efi-qd-9So">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="YnZ-7j-5iB"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="住宅" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Soe-2P-EdF">
+                        <frame key="frameInset" minX="23" minY="5" width="38" height="15"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.90980392160000001" green="0.58823529409999997" blue="0.14901960780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add_33" translatesAutoresizingMaskIntoConstraints="NO" id="myE-Li-STB"/>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Efi-qd-9So" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="2" id="1mo-jV-IxB"/>
+                <constraint firstAttribute="trailing" secondItem="Efi-qd-9So" secondAttribute="trailing" constant="2" id="4pj-vF-U6Q"/>
+                <constraint firstAttribute="trailing" secondItem="qKu-b7-qSZ" secondAttribute="trailing" id="5dD-tH-P0o"/>
+                <constraint firstItem="qKu-b7-qSZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="DyR-CJ-wSq"/>
+                <constraint firstAttribute="bottom" secondItem="Efi-qd-9So" secondAttribute="bottom" constant="2" id="E6J-8b-xbU"/>
+                <constraint firstItem="Ix2-bh-mIE" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="HUe-An-rZh"/>
+                <constraint firstItem="myE-Li-STB" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="13" id="P9C-5S-sdg"/>
+                <constraint firstAttribute="bottom" secondItem="qKu-b7-qSZ" secondAttribute="bottom" constant="2" id="bvi-XE-TVE"/>
+                <constraint firstItem="Ix2-bh-mIE" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="25" id="dbg-i3-F4Y"/>
+                <constraint firstAttribute="trailing" secondItem="myE-Li-STB" secondAttribute="trailing" constant="5" id="eE8-L3-UdK"/>
+                <constraint firstAttribute="bottom" secondItem="myE-Li-STB" secondAttribute="bottom" constant="14" id="k96-8Z-XdG"/>
+                <constraint firstItem="myE-Li-STB" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="q0w-aQ-2CI"/>
+                <constraint firstItem="qKu-b7-qSZ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="vhZ-88-iZt"/>
+                <constraint firstAttribute="trailing" secondItem="Ix2-bh-mIE" secondAttribute="trailing" constant="20" id="yeC-2t-xYy"/>
+            </constraints>
+            <size key="customSize" width="103" height="123"/>
+            <connections>
+                <outlet property="BuildingNUMLabel" destination="Efi-qd-9So" id="WNz-ZG-vGe"/>
+                <outlet property="addImageView" destination="myE-Li-STB" id="0i9-yC-YPI"/>
+                <outlet property="buildingPurposeLabel" destination="Soe-2P-EdF" id="lCD-pe-9OM"/>
+                <outlet property="buildingView_image" destination="qKu-b7-qSZ" id="FKK-yq-gsc"/>
+                <outlet property="usageRateLabel" destination="Ix2-bh-mIE" id="s7v-ev-eu7"/>
+            </connections>
+            <point key="canvasLocation" x="453.5" y="333"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="add_33" width="141" height="133"/>
+        <image name="loudong" width="176" height="196"/>
+    </resources>
+</document>

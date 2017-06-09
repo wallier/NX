@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="ZUE-yr-9Sr" customClass="BNCommunityCollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xiaoqu.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZKx-a5-ICX"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="民生花园" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MmH-PK-uL2">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Hra-cX-tCD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="异网用户:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sgr-NM-aqa">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="B6q-9X-7FX"/>
+                            <constraint firstAttribute="width" constant="45" id="p1X-vb-5Kj"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="本网用户:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Fb-oH-2Vk">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="DzQ-4S-fHO"/>
+                            <constraint firstAttribute="width" constant="45" id="ueh-vJ-RGH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xcu-hd-Rnf">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="d7a-XE-qsQ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3500" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cyi-Le-fub">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="P3z-YX-moE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Xcu-hd-Rnf" secondAttribute="trailing" constant="10" id="10N-Tw-0Om"/>
+                <constraint firstItem="ZKx-a5-ICX" firstAttribute="leading" secondItem="ZUE-yr-9Sr" secondAttribute="leading" id="9Pi-ox-8K6"/>
+                <constraint firstItem="Sgr-NM-aqa" firstAttribute="leading" secondItem="ZUE-yr-9Sr" secondAttribute="leading" constant="10" id="E0t-u4-QJT"/>
+                <constraint firstItem="Sgr-NM-aqa" firstAttribute="top" secondItem="3Fb-oH-2Vk" secondAttribute="bottom" id="OAD-8t-UjY"/>
+                <constraint firstAttribute="trailing" secondItem="ZKx-a5-ICX" secondAttribute="trailing" id="Paw-5E-YT9"/>
+                <constraint firstAttribute="trailing" secondItem="MmH-PK-uL2" secondAttribute="trailing" id="QeI-WE-zw1"/>
+                <constraint firstItem="MmH-PK-uL2" firstAttribute="top" secondItem="Sgr-NM-aqa" secondAttribute="bottom" id="Qra-Fk-YDd"/>
+                <constraint firstAttribute="trailing" secondItem="cyi-Le-fub" secondAttribute="trailing" constant="10" id="RGQ-BK-S7B"/>
+                <constraint firstItem="3Fb-oH-2Vk" firstAttribute="leading" secondItem="ZUE-yr-9Sr" secondAttribute="leading" constant="10" id="TaH-Nx-4Bo"/>
+                <constraint firstAttribute="bottom" secondItem="ZKx-a5-ICX" secondAttribute="bottom" id="USR-DA-qLl"/>
+                <constraint firstItem="Xcu-hd-Rnf" firstAttribute="top" secondItem="cyi-Le-fub" secondAttribute="bottom" id="WE3-qI-ztW"/>
+                <constraint firstItem="ZKx-a5-ICX" firstAttribute="top" secondItem="ZUE-yr-9Sr" secondAttribute="top" id="XvE-II-M8V"/>
+                <constraint firstAttribute="bottom" secondItem="MmH-PK-uL2" secondAttribute="bottom" id="aiI-NI-3cb"/>
+                <constraint firstItem="Xcu-hd-Rnf" firstAttribute="leading" secondItem="Sgr-NM-aqa" secondAttribute="trailing" id="dsj-Vi-Wr1"/>
+                <constraint firstItem="cyi-Le-fub" firstAttribute="leading" secondItem="3Fb-oH-2Vk" secondAttribute="trailing" id="r8e-ne-ZlI"/>
+                <constraint firstItem="MmH-PK-uL2" firstAttribute="leading" secondItem="ZUE-yr-9Sr" secondAttribute="leading" constant="8" id="tfc-RC-I84"/>
+                <constraint firstItem="MmH-PK-uL2" firstAttribute="top" secondItem="Xcu-hd-Rnf" secondAttribute="bottom" id="yMX-Dr-lRd"/>
+            </constraints>
+            <size key="customSize" width="140" height="129"/>
+            <connections>
+                <outlet property="UsersQuantity" destination="cyi-Le-fub" id="hJ8-us-m2B"/>
+                <outlet property="communityName" destination="MmH-PK-uL2" id="Xzj-pK-0to"/>
+                <outlet property="differentUsersQuantity" destination="Xcu-hd-Rnf" id="xV5-Qh-2GL"/>
+            </connections>
+            <point key="canvasLocation" x="278" y="107"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="xiaoqu.png" width="245" height="236"/>
+    </resources>
+</document>

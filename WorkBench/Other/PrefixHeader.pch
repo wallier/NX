@@ -1,0 +1,66 @@
+//
+//  PrefixHeader.pch
+//  WorkBench
+//
+//  Created by xiaos on 15/12/1.
+//  Copyright © 2015年 com.bonc. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+Frame.h"
+#import <Masonry.h>
+#import "BNNetworkTool.h"
+#import "HeaderandUrl.h"
+#import "MJExtension.h"
+#import "LoginModel.h"
+#import <UIView+Toast.h>
+#import "MBProgressHUD+Extend.h"
+
+#define WS __weak typeof(self) weakSelf = self;
+#define SS __strong typeof(weakSelf)strongSelf = weakSelf;
+
+#define RGB(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0f]
+#define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+
+
+
+#define MAXX(frame) CGRectGetMaxX(frame)
+#define MAXY(frame) CGRectGetMaxY(frame)
+
+#define SCREEN_W ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_H ([UIScreen mainScreen].bounds.size.height)
+
+// NSUserdefault
+#define USERDEFAULT [NSUserDefaults standardUserDefaults]
+
+#pragma mark - 网络连接状态
+
+#define NetWorkState [[NSUserDefaults standardUserDefaults] boolForKey:@"netWorkState"];
+
+#define UIFONT(fontSize) [UIFont fontWithName:@"Helvetica-Bold" size:fontSize]
+
+
+#pragma mark - NSLogRedefinition
+
+#ifdef DEBUG
+/*** 日志 ***/
+#ifdef DEBUG
+// 调试阶段 __VA_ARGS__ 代表很多参数（前面 等于 后面）
+#define BNLog(...) NSLog(__VA_ARGS__)
+#else
+// 真机运行阶段 什么也不输出
+#define BNLog(...)
+#endif
+// 打印方法
+#define BNLogFunc BNLog(@"%s", __func__);
+
+#define NSLog(FORMAT,...)  fprintf(stderr,"函数:%s 行号:%d\n打印值:%s\n\n", __FUNCTION__, __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String])
+#else
+#define NSLog(...)
+#endif
+
+#endif /* PrefixHeader_pch */
